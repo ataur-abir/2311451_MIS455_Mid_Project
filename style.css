@@ -2,7 +2,22 @@
 Name: MD ATAUR RAHMAN
 ID: 2311451
 */
+/* Navigation Bar */
+.menu {
+    background-color: #333;
+    text-align: center;
+}
 
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.menu a:hover {
+    background-color: #111;
+}
 *{
     margin: 0;
     padding: 0;
