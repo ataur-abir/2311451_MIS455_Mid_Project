@@ -1,0 +1,119 @@
+/*
+Name: MD ATAUR RAHMAN
+ID: 2311451
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Header */
+.header{
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.tagline{
+    margin-top: 10px;
+}
+
+/* Navigation */
+.menu{
+    background-color: gray;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.menu a:hover{
+    color: rgb(117, 117, 87);
+}
+
+/* Main */
+main{
+    padding: 20px;
+}
+
+/* Home & Contact Page (Flex) */
+.section{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.text{
+    padding: 10px;
+}
+
+.text h2{
+    margin-bottom: 10px;
+}
+
+/* Images */
+img{
+    border: 1px solid black;
+}
+
+/* Intro */
+.intro{
+    margin-bottom: 20px;
+}
+
+/* Contact */
+.contact{
+    margin-bottom: 20px;
+}
+
+/* Products Page (Grid) */
+.products{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.card{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.price{
+    color: rgb(170, 109, 109);
+    font-weight: bold;
+}
+
+/* Buttons */
+.buttons{
+    text-align: center;
+    margin: 20px;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+/* Footer */
+.footer{
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
